@@ -115,6 +115,12 @@ mongooseRollback.rollbackAll([safeQuery, safeQuery2, safeQuery3], function (err)
 ##Limitations
 Actually the rollback doesn't work with the findOneAnd* methods of mongoose.
 
+##Test
+You need mongodb up and running
+```js
+npm test
+```
+
 ##TODO
 - Test, test and re-test with real and particular cases
 - Implement the rollback for the findOneAnd* methods
