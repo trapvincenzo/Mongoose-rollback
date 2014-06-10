@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-rollback",
+  "version": "0.0.1",
+  "description": "Mongoose-rollback helps you to rollback a mongodb query using mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "rollback"
+  ],
+  "author": "Vincenzo Trapani",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^3.8.12"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  }
+}
