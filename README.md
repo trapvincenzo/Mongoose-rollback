@@ -2,7 +2,7 @@
 This EXPERIMENTAL module helps to rollback a mongodb query.
 Mongodb doesn't support rollback operations, so i've implemented a workaround using mongoose ❤.
 
-##How to implement it
+##How to use it
 Build your query with mongoose and execute it using the **executeSafeQuery()** method:
 
 ##Examples
